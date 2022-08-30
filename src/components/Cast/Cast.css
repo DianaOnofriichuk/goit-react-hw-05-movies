@@ -1,0 +1,12 @@
+.actor-photo {
+  width: 155px;
+  height: 222px;
+}
+.actor-text {
+  max-width: 560px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: #000000;
+}

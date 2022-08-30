@@ -1,0 +1,13 @@
+.go-back-btn {
+  border: 2px solid #413e3d;
+  border-radius: 18px;
+  padding: 10px 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgb(42, 42, 47);
+  cursor: pointer;
+}

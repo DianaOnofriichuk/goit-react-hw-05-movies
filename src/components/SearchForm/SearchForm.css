@@ -1,0 +1,23 @@
+.search-form {
+  margin-top: 18px;
+}
+.search-input {
+  width: 40%;
+  padding: 8px;
+  border-radius: 9px;
+  margin-right: 10px;
+}
+.search-btn {
+  height: 35px;
+  border: 2px solid #413e3d;
+  border-radius: 9px;
+  padding: 0 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgb(42, 42, 47);
+  cursor: pointer;
+}

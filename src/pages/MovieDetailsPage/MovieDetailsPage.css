@@ -1,0 +1,53 @@
+.detalis-container {
+  padding: 20px;
+}
+.detalis-list {
+  margin-bottom: 20px;
+}
+.detalis-item {
+  display: flex;
+}
+.detalis-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.detalis-name {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #000000;
+}
+.detalis-info-name {
+  width: 110px;
+  font-size: 13px;
+  line-height: 1.13;
+  color: #8c8c8c;
+}
+.detalis-info-value {
+  max-width: 169px;
+  font-size: 13px;
+  line-height: 1.13;
+  color: #000000;
+}
+.detalis-value-rating {
+  margin-right: 5px;
+  padding: 1px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.13;
+  color: #ffffff;
+  background: #ff6b01;
+}
+.detalis-about {
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: #000000;
+}
+.detalis-description {
+  max-width: 600px;
+  font-size: 13px;
+  line-height: 1.67;
+  color: #000000;
+}
