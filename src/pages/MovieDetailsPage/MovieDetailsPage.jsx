@@ -10,12 +10,11 @@ const MovieDetailsPage = () => {
   const { movieId } = useParams();
   useEffect(() => {
     async function getDetalis() {
-      const detalis = await getMovieDetails(movieId);
-      setDetalis(detalis);
-      console.log(detalis);
+      const result = await getMovieDetails(movieId);
+      setDetalis(result);
     }
     getDetalis();
-  }, []);
+  }, [movieId]);
 
   return (
     <div className="page-container">

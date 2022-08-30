@@ -7,11 +7,11 @@ const Reviews = () => {
   const { movieId } = useParams();
   useEffect(() => {
     async function receiveReviews() {
-      const reviews = await getReviews(movieId);
-      setReviews(reviews);
+      const result = await getReviews(movieId);
+      setReviews(result);
     }
     receiveReviews();
-  }, []);
+  }, [movieId]);
 
   if (reviews && reviews.length !== 0) {
     return (

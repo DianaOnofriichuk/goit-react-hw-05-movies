@@ -7,11 +7,11 @@ const Cast = () => {
   const { movieId } = useParams();
   useEffect(() => {
     async function receiveCast() {
-      const cast = await getCast(movieId);
-      setCast(cast);
+      const result = await getCast(movieId);
+      setCast(result);
     }
     receiveCast();
-  }, []);
+  }, [movieId]);
 
   if (cast && cast.length > 0) {
     return (
